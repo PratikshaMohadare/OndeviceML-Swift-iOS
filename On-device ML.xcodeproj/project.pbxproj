@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8CD25CD42DD613D6009E8115 /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8CD25CD32DD613D6009E8115 /* MobileNet.mlmodel */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		8CD25CC52DD612E6009E8115 /* On-device ML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "On-device ML.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CD25CD32DD613D6009E8115 /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNet.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +37,7 @@
 		8CD25CBC2DD612E6009E8115 = {
 			isa = PBXGroup;
 			children = (
+				8CD25CD32DD613D6009E8115 /* MobileNet.mlmodel */,
 				8CD25CC72DD612E6009E8115 /* On-device ML */,
 				8CD25CC62DD612E6009E8115 /* Products */,
 			);
@@ -119,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CD25CD42DD613D6009E8115 /* MobileNet.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
